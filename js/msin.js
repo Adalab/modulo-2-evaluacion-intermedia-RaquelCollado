@@ -17,21 +17,21 @@ function gameComputer(){
 const randomNumber = getRandomNumber (9);
 if (randomNumber<=3){
     return 'Piedra';
-}else if (randonNumber >=7){
+}else if (randomNumber >=7){
     return 'Papel';
 }else {
     return 'Tijera';
 }
 }
 
-function result (select, gameComputer) {
-    if (select.value === gameComputer){
+function result () {
+    if (select.value === gameComputer()){
         return 'Empate';
     }
     else if (
-        (select.value === 'Piedra' && gameComputer === 'Tijera') || 
-        (select.value === 'Papel' && gameComputer === 'Piedra') || 
-        (select.value === 'Tijera' && gameComputer === 'Papel')
+        (select.value === 'Piedra' && gameComputer() === 'Tijera') || 
+        (select.value === 'Papel' && gameComputer() === 'Piedra') || 
+        (select.value === 'Tijera' && gameComputer() === 'Papel')
         ){
         return '¡Has ganado!';
         }
