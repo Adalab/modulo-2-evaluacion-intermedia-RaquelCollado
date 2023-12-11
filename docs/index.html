@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/images/faicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¡A jugar!</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class='header'>
+      <h1 class='header_title'>Piedra, Papel y Tijeras</h1>
+  </div>
+  <main class='main'>
+    <div class='main_container'>
+      <p class='main_container_info'>Introduce aquí tu jugada:</p>
+      <select class="main_container_select js-select" name="" id="">
+        <option class='main_container_select_opt' value="">Seleccione su jugada</option>
+        <option class='main_container_select_opt' value="Piedra">Piedra</option>
+        <option class='main_container_select_opt' value="Papel">Papel</option>
+        <option class='main_container_select_opt' value="Tijera">Tijeras</option>
+      </select>
+      <button class="main_container_go js-go">jugar</button>
+    </div>
+    <div class='main_result'>
+      <p class="main_result_start js-result">¡ Empezamos !</p>
+      <p class="main_result_gamer js-gamer">
+        <img class='main_result_gamer_people' src="./assets/images/personas.png" alt="imagen personas">
+      Jugador:</p>
+      <p class="main_result_computer js-computer">
+        <img class='main_result_computer_machine' src="./assets/images/computadora.png" alt="imagen ordenador">
+      Computadora:</p>
+    </div>
+  </main>
+  <div class='footer'>
+      <img class='footer_img' src="./assets/images/piedra-papel-tijeras.png" alt="imagen piedra papel tijeras">
+      <p class='footer_text'>Raquel Collado Herrera 2023</p> 
+      <img class='footer_img' src="./assets/images/piedra-papel-tijeras.png" alt="imagen piedra papel tijeras">
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
