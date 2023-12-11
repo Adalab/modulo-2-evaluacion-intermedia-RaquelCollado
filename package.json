@@ -45,7 +45,6 @@
   "homepage": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera#readme",
   
   "devDependencies": {
-    "gulp": "^4.0.2"
   }
   
 }
