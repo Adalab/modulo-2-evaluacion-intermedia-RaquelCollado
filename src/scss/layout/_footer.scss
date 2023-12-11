@@ -1,0 +1,17 @@
+.footer{
+    background-color: $color-beige;
+    height: 10vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: dotted $color-black 3px;
+    &_img{
+        width: 4rem;
+        padding: 0.8rem;
+    }
+    &_text{
+        font-family: $font-flower;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}

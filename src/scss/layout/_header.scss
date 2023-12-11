@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-beige;
+    border-bottom: dotted $color-black 3px;
+    height: 25vh;
+    &_title{
+        font-size: 3rem;
+        font-family: $font-arch;
+        font-weight: 700;
+        text-shadow: 2px 2px 0px $color-green, 5px 4px 0px rgba(0,0,0,0.15);
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+}
