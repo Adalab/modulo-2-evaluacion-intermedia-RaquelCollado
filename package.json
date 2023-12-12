@@ -1,26 +1,26 @@
 {
-  "name": "piedra-papel-o-tijera",
+  "name": "Piedra-Papel-o-Tijera",
   "version": "1.0.0",
   "description": "",
   "dependencies": {
     "browser-sync": "^2.26.12",
-		"del": "^5.1.0",
-		"eslint": "^7.1.0",
-		"gulp": "^4.0.2",
-		"gulp-autoprefixer": "*",
-		"gulp-clean-css": "*",
-		"gulp-combine-mq": "*",
-		"gulp-concat": "*",
-		"gulp-html-tag-include": "^1.0.1",
-		"gulp-notify": "*",
-		"gulp-plumber": "*",
-		"gulp-rename": "*",
-		"gulp-sass": "^5.0.0",
-		"gulp-sourcemaps": "*",
-		"gulp-uglify-es": "^2.0.0",
-		"gulp-zip": "*",
-		"node-sass": "^7.0.3",
-		"run-sequence": "*"
+    "del": "^5.1.0",
+    "eslint": "^7.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "*",
+    "gulp-clean-css": "*",
+    "gulp-combine-mq": "*",
+    "gulp-concat": "*",
+    "gulp-html-tag-include": "^1.0.1",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-zip": "*",
+    "node-sass": "^7.0.3",
+    "run-sequence": "*"
   },
   "main": "gulpfile.js",
   "directories": {
@@ -43,8 +43,7 @@
     "url": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera/issues"
   },
   "homepage": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera#readme",
-  
   "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
-  
 }
