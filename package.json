@@ -1,7 +1,6 @@
 {
-  "name": "Piedra-Papel-o-Tijera",
+  "name": "piedra-papel-o-tijera",
   "version": "1.0.0",
-  "description": "",
   "dependencies": {
     "browser-sync": "^2.26.12",
     "del": "^5.1.0",
@@ -27,14 +26,14 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "./node_modules/.bin/gulp",
+    "start": "gulp",
     "docs": "rm -rf docs && ./node_modules/.bin/gulp docs",
     "push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
     "deploy": "npm run push-docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaquelCollado/Piedra-Papel-o-Tijera.git"
+    "url": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera.git"
   },
   "keywords": [],
   "author": "",
@@ -45,5 +44,6 @@
   "homepage": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera#readme",
   "devDependencies": {
     "gh-pages": "^6.1.0"
-  }
+  },
+  "description": ""
 }
