@@ -43,6 +43,7 @@
   },
   "homepage": "https://github.com/RaquelCollado/Piedra-Papel-o-Tijera#readme",
   "devDependencies": {
+    "lodash.template": ">=4.5.0",
     "gh-pages": "^6.1.0"
   },
   "description": ""
